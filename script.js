@@ -17,7 +17,7 @@ function generateNumber() {
     // 4. Regra de Negócio: Min não pode ser maior que Max
     if (min >= max) {
         display.innerHTML = "Erro: O valor mínimo deve ser menor que o máximo!";
-        inputMin.style.borderColor = "red"; // Feedback visual
+        inputMin.style.borderColor = "black"; // Feedback visual
         return;
     }
 
