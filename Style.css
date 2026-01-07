@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #a19393;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+img {
+    width: 233px;
+    height: 174px;
+    background: url(<path-to-image>) rgb(138, 47, 47) 0px -80.978px / 100% 156.25% no-repeat;
+    display: block;
+    margin: 125px auto 0 auto;
+} 
+
+h2 {
+    color: red;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    text-align: center;
+    margin-top: 76px;
+    margin-bottom: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    width: 342px;
+    padding: 0 16px;  
+    margin: 0 auto;
+    
+   
+}
+
+.container input {
+    width: 204px;
+    height: 38px;
+    color: rgba(8, 8, 8, 0.692);
+    background-color: #050505;
+    border: 1px solid #ad5858;
+    border-radius: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    padding-left: 8px;
+    border-radius: 10px;
+    border: 1px solid rgba(230, 58, 58, 0.932);
+    background: rgba(255, 255, 255, 0.527);
+    outline: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+#sortear {
+    width: 104px;
+    height: 38px;
+    background-color: #e5e5e5;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 16px;
+    cursor: pointer;
+}
+
+#sortear:hover {
+    background-color: #dba3a3;
+    color: #3b2626;
+}
+
+#sortear {
+    margin: 32px auto 0 auto;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+}   
+
+#resultado {
+    margin-top: 32px;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 34px;
+    color: rgb(60, 153, 80);
+    text-align: center;
+}
+
